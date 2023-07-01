@@ -24,6 +24,9 @@
   </dependencies>
   
   <build>
+  
+  <finalName>jenkinsthirdexercise</finalName>	
+  
    <plugins>
    <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
