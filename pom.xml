@@ -40,7 +40,9 @@
 	            <classpathPrefix>lib/</classpathPrefix>
 	            <mainClass>com.jenkins.exercise.FirstJenkinExercise</mainClass>
 	          </manifest>
-	        </archive> -->
+	        </archive> 
+	        
+	        -->
         </configuration>
     </plugin>
     
