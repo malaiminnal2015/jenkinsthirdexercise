@@ -21,7 +21,7 @@ pipeline {
                 echo "Its ****** DEPLOYING ****** now"
                 sh "mvn package"
                 sh "cd /var/lib/jenkins/workspace/JenkinsExercisePipeline/jenkinsthirdexercise/target"
-                echo "java -jar jenkinsthirdexercise.jar com.jenkins.exercise.FirstJenkinExercise"
+                sh "java -jar jenkinsthirdexercise.jar com.jenkins.exercise.FirstJenkinExercise"
                 
               
             }
