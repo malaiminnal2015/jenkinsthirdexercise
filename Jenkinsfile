@@ -20,7 +20,7 @@ pipeline {
             steps {
                 echo "Its ****** DEPLOYING ****** now"
                 sh "mvn package"
-                sh "java -jar /var/lib/jenkins/workspace/Varman-Banks-Pipeline-Jenkinsfile/jenkinsthirdexercise/target/jenkinsthirdexercise.jar com.jenkins.exercise.FirstJenkinExercise"
+                sh "java -jar /var/lib/jenkins/workspace/Varman-Banks-Pipeline-Jenkinsfile/target/jenkinsthirdexercise.jar com.jenkins.exercise.FirstJenkinExercise"
             }
         }
     }
